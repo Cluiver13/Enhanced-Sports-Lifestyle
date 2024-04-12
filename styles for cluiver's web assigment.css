@@ -1,0 +1,517 @@
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffff5b;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header .logo {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("https://imgs.search.brave.com/_9dGLUpJTau-aIPYSK8npmAbmAERnAYzmWjegp8m6L0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubmlrZS5jb20v/YS9pbWFnZXMvd18x/OTIwLGNfbGltaXQv/MmNjNjc3ZTItZDZh/MC00YWM3LTlmMDIt/ZGVlMDEwM2VlZjE1/L3RoZS0xMC1iZXN0/LW5pa2UtZ2lmdHMt/Zm9yLWZvb3RiYWxs/ZXJzLmpwZw");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+}
+
+.Shop {
+    padding: 50px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.product p {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.product span {
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.about p {
+    font-size: 18px;
+    color: #cccccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.about .btn:hover {
+    background-color: #ff4500;
+}
+
+.shop-by-sport {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.shop-by-sport h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.sport-categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sport-category {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.sport-category img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sport-category h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.sport-category .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sport-category .btn:hover {
+    background-color: #ff4500;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.men {
+    background-color: #f8f6f4;
+    color: #a76208;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.men h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #130101;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #140101;
+}
+
+.product p {
+    color: #110000;
+    margin-bottom: 10px;
+}
+
+.product span {
+    font-weight: bold;
+    color: #0c0000;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.women {
+    background-color: #f7f5f2;
+    color: #a76208;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.women h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.product p {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.product span {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.kids {
+    background-color: #f7f5f2;
+    color: #a76208;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.kids h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.product p {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.product span {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.kids {
+    background-color: #f7f5f2;
+    color: #180e01;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.kids h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.product span {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.footwear {
+    padding: 50px 0;
+    background-color: #f7f5f2; 
+    color: #a76208; 
+}
+
+.footwear h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #a76208; 
+}
+
+.footwear .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footwear .product {
+    margin: 20px;
+    text-align: center;
+    max-width: 250px; 
+}
+
+.footwear .product img {
+    width: 100%; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.footwear .product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000; 
+}
+
+.footwear .product p {
+    margin-bottom: 10px;
+    color: #666; 
+}
+
+.footwear .product span {
+    font-weight: bold;
+    color: #000; 
+    font-size: 18px;
+}
+
+/* Styles for the Equipment section */
+.equipment {
+    padding: 50px 0;
+    background-color: #f2f0ee; 
+    color: #333; 
+}
+
+.equipment h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000; 
+}
+
+.equipment .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.equipment .product {
+    margin: 20px;
+    text-align: center;
+    max-width: 250px; 
+}
+
+.equipment .product img {
+    width: 100%; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.equipment .product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000; 
+}
+
+.equipment .product p {
+    margin-bottom: 10px;
+    color: #666; 
+}
+
+.equipment .product span {
+    font-weight: bold;
+    color: #000; 
+    font-size: 18px;
+}
+
